@@ -1,5 +1,5 @@
 function greet(name) {
-    return `Hello Everyone, ${name}! This is MAIN branch!`;
+    return `Hello, ${name}!`;
 }
 
 console.log(greet("Team"));
