@@ -1,5 +1,7 @@
 function greet(name) {
-    return `Hello ${name}! This is MAIN branch!`;
+    if (name)
+        return `Hello ${name}! This is MAIN branch!`;
+    else return `Hello!`;
 }
 
 console.log(greet("Narra"));
